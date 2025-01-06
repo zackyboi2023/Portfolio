@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zacky's Data Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+
+</head>
+<body>
+    <nav class="navbar transparent">
+        <a href="#hero"><h1 class="logo">Zack<span></span></h1></a>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div> <!-- Hamburger menu -->
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="hero" class="hero-section">
+        <div class="hero-content-wrapper">
+            <div class="hero-text">
+                <h1>Hello, I'm Zackary</h1>
+                <p>
+                    <span id="typing-text"></span><span class="cursor">|</span>
+                </p>
+                <a href="https://www.linkedin.com/in/zackary-njoroge-b75a98200/" class="btn">LinkedIn</a>
+                <a href="Document//Zack - CV.pdf" download="Zack - CV.pdf" class="btn">CV</a>
+            </div>
+            <div class="hero-image">
+                <img src="Images//image.jpg" alt="Profile Picture">
+            </div>
+        </div>
+    </section> 
+
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <div class="about-cards">
+            <!-- Card 1: Background -->
+            <div class="about-card">
+                <h3>My Background</h3>
+                <p>
+                    I am a third-year university student at The University of Kent, specializing in Data Analytics and Data Science. My academic journey has helped me cultivate strong problem-solving and communication skills, alongside a solid foundation in programming, machine learning, and statistical analysis. Through personal projects, I have expanded my proficiency in Python and SQL while deepening my understanding of data visualization tools such as Tableau and Power BI.
+                </p>
+            </div>            
+            <!-- Card 2: Education -->
+            <div class="about-card">
+                <h3>My Education</h3>
+                <p>
+                    Coulsdon Sixth Form College
+                    <li>BTEC Level 3 Diploma - Computing - Achieved: D*D</li>
+                    <li>BTEC Level 3 Sub-Diploma - Media Studies- Achieved: D*</li><br>
+                    University of Kent
+                    <li>Bachelors of Science - Computer Science - Predicted: 2.1</li>
+
+                </p>
+            </div>
+            <!-- Card 3: Personal Vision -->
+            <div class="about-card">
+                <h3>Fun Fact About Me</h3>
+                <p>
+                    While exploring Manchester, I once created a data project analyzing properties in the area to determine if they were worth the value of my money. This deep dive into property data not only helped me make informed decisions but also strengthened my skills in data analysis and visualization.
+                </p>
+            </div>            
+        </div>
+    </section>
+    
+    
+    <section id="skills" class="section skills-section">
+        <h2>Skills</h2>
+    
+        <!-- Programming Skills -->
+        <div class="skills-category">
+            <h3>Programming</h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                    <p>1 year of experience</p>
+                    <div class="proficiency-bar">
+                        <div class="proficiency-fill" style="width: 74%;"></div>
+                    </div>
+                    <p class="proficiency-text">Proficiency: 0%</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>SQL</h3>
+                    <p>Relational databases, queries</p>
+                    <div class="proficiency-bar">
+                        <div class="proficiency-fill" style="width: 70%;"></div>
+                    </div>
+                    <p class="proficiency-text">Proficiency: 0%</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>Machine Learning</h3>
+                    <p>Sckit-Learn, NLTK (Natural Learning ToolKit)</p>
+                    <div class="proficiency-bar">
+                        <div class="proficiency-fill" style="width: 59%;"></div>
+                    </div>
+                    <p class="proficiency-text">Proficiency: 0%</p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Data Analysis Skills -->
+        <div class="skills-category">
+            <h3>Data Analysis</h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Data Cleaning / Data Manipulation</h3>
+                    <p>Pandas, NumPy, Python</p>
+                    <div class="proficiency-bar">
+                        <div class="proficiency-fill" style="width: 81%;"></div>
+                    </div>
+                    <p class="proficiency-text">Proficiency: 0%</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Data Visualization</h3>
+                    <p>Matplotlib, Seaborn, Tableau</p>
+                    <div class="proficiency-bar">
+                        <div class="proficiency-fill" style="width: 89%;"></div>
+                    </div>
+                    <p class="proficiency-text">Proficiency: 0%</p>
+                </div>
+                <div class="skill-card">
+                    <i class='fas fa-book-open'></i>
+                    <h3>Notebook</h3>
+                    <p>JupyterLab, Visual Studio Code</p>
+                    <div class="proficiency-bar">
+                        <div class="proficiency-fill" style="width: 88%;"></div>
+                    </div>
+                    <p class="proficiency-text">Proficiency: 0%</p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Extra Skills -->
+        <div class="skills-category">
+            <h3>Extra Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class='fas fa-user-alt'></i>
+                    <h3>Soft Skills</h3>
+                    <p>Time management, Communication, Organisation, Collaboration, Presentation, Attention to detail, problem solving.</p>
+                    <div class="proficiency-bar">
+                        <div class="proficiency-fill" style="width: 96%;"></div>
+                    </div>
+                    <p class="proficiency-text">Proficiency: 0%</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Microsoft Office</h3>
+                    <p>Excel, Word, Powerpoint</p>
+                    <div class="proficiency-bar">
+                        <div class="proficiency-fill" style="width: 81%;"></div>
+                    </div>
+                    <p class="proficiency-text">Proficiency: 0%</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Other</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    
+
+    <section id="projects" class="section projects-section">
+        <h2>Projects</h2>
+    
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <img src="Images//Projects//1//Manchester-Eng.png" alt="Project 1" class="project-image">
+                <div class="project-info">
+                    <h3>Greater Manchester Properties Analysis</h3>
+                    <p>Live. Love. Manchester</p>
+                    <p><strong>Technologies:</strong> Python, Pandas, Jupyter Notebook, Seaborn, Matplotlib, Tableau</p>
+                    <button class="view-project-btn" data-project="1">See more Information</button>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="Images//Projects//2//Emotions.png" alt="Project 1" class="project-image">
+                <div class="project-info">
+                    <h3>Sentiment Analysis on PureGym Reviews</h3>
+                    <p>Customers emotions are important for reviews</p>
+                    <p><strong>Technologies:</strong> Python, NLTK, MatPlotLib, Seaborn, Jupyter Notebook</p>
+                    <button class="view-project-btn" data-project="2">See more Information</button>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src= "Images//Projects//3//San_Francisco_from_the_Marin_Headlands_in_August_2022.png" alt="Project 1" class="project-image">
+                <div class="project-info">
+                    <h3>EDA with San Francisco Salaries</h3>
+                    <p>Salaries in San Francisco!</p>
+                    <p><strong>Technologies:</strong> Pandas, MatPlotLib, Seaborn, SQL, Jupyter Notebook</p>
+                    <button class="view-project-btn" data-project="3">See more Information</button>
+                </div>
+            </div>    
+            <div class="project-card">
+                <img src="Images//Projects//4//apple-splash-2208-1242.png" class="project-image">
+                <div class="project-info">
+                    <h3>Starbucks Customer Reviews</h3>
+                    <p>What do the customers think!</p>
+                    <p><strong>Technologies:</strong> Python, Pandas, MatPlotLib, Seaborn, SQL, Jupyter Notebook</p>
+                    <button class="view-project-btn" data-project="4">See more Information</button>
+                </div>
+            </div>    
+        </div>
+    </section>
+    
+    <!-- Modal Structure -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            
+            <!-- Modal Content -->
+            <div class="modal-header">
+                <h2 id="modal-title">Project Title</h2>
+                <div class="modal-buttons">
+                    <a href="#" id="github-link" class="btn">GitHub</a>
+                </div>
+            </div>
+    
+            <div class="modal-body">
+                <div class="modal-left">
+                    <p id="modal-description">Project Description</p>
+                    <p><strong>Technologies:</strong> <span id="modal-technologies"></span></p>
+                </div>
+    
+                <div class="modal-right">
+                    <div class="image-slider">
+                        <img src="image1.jpg" alt="Project Image 1" class="slide-image">
+                        <img src="image2.jpg" alt="Project Image 2" class="slide-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <section id="contact" class="section contact-section">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out for collaborations or inquiries:</p>
+    
+        <form id="contact-form" class="contact-form" action="https://formspree.io/f/myzzbnjj" method="POST">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Type your message here" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+    
+
+    <footer class="footer">
+        <p>© 2024 Zack's Portfolio</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
